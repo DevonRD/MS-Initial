@@ -1,38 +1,51 @@
 * {
   box-sizing: border-box; }
 
+html, body, h1, h2, h3, h4, h5, p, a {
+    font-family: 'Quicksand';
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, 'Quicksand', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-image: url('wood.jpg');
   color: #606c71; }
 
-a {
-  color: #1e6bb8;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+.logo {
+  width: 100%;
+  height: auto;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: block;
+}
 
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
-    margin-left: 1rem; }
+.menu-bar {
+  position:relative;
+}
 
-.btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+.menu-bar a {
+  display: block;
+  float: left;
+}
+
+.menu-bar button {
+  background: none;
+  border: none;
+  color: #000000; /* White text */
+  font-size: 2.5vw;
+  margin: 50px 45px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left;
+  display: block;
+}
+
+  /* Add a background color on hover */
+  .menu-bar button:hover {
+    color: #1e723a;
+  }
 
 @media screen and (min-width: 64em) {
   .btn {
