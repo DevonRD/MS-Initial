@@ -9,25 +9,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body style="background-color: #eeeeee; background-image: url('wood2.png');">
-  <div class="row">
-    <div class="col-sm-4">
-      <a><img class="logo" src="midwest-stairs.png"></img></a>
-    </div>
 
-    <div class="col-sm-8">
-      <div class="menu-bar">    
-        <a href="https://github.com/DevonRD"><button>Home</button></a>
-        <a href="https://github.com/DevonRD"><button>About Us</button></a>
-        <a href="https://github.com/DevonRD"><button>Projects</button></a>
-        <a href="https://github.com/DevonRD"><button>Contact Us</button></a>
-      </div>
-    </div>
+  <a><img class="logo" src="midwest-stairs.png"></img></a>
+
+  <div class="menu-bar">    
+    <button onclick="openTab('about', this)" id="defaultOpen">About Us</button>
+    <button onclick="openTab('projects', this)">Projects</button>
+    <button onclick="openTab('contact', this)">Contact Us</button>
   </div>
-  
 
+  <br><br><br><br><br>
+
+  <div id="about" class="tabcontent">
+    <p>Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. Welcome to Midwest Stairs. </p>
+  </div>
+
+  <div id="projects" class="tabcontent">
+    <p>projects</p>
+  </div>
+
+  <div id="contact" class="tabcontent">
+    <p>contact</p>
+  </div>
+
+  <script>
+    document.getElementById("defaultOpen").click();
+  </script>
     
 </body>
 </html>
