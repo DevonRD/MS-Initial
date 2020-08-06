@@ -26,6 +26,7 @@ body {
 
   .menu-bar {
     position:relative;
+    text-align: center;
   }
 
   .menu-bar button {
@@ -34,15 +35,19 @@ body {
     font-family: 'Quicksand';
     color: #2b2b2b;
     font-size: 2rem;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: auto;
     cursor: pointer;
     float: left;
     display: block;
     outline: none;
-    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #2b2b2b;
+    font-family: 'Montserrat';
   }
 }
 
@@ -78,18 +83,18 @@ body {
   .menu-bar button:hover {
     font-weight: bold;
   }
+
+  p {
+    font-size: 1.6rem;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: #2b2b2b;
+    font-family: 'Montserrat';
+  }
 }
 
 hr {
   width: 70%;
-}
-
-p {
-  font-size: 1.6rem;
-  margin-left: 18%;
-  margin-right: 18%;
-  color: #2b2b2b;
-  font-family: 'Montserrat';
 }
 
 .menu-bar a {
