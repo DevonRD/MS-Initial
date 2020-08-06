@@ -16,11 +16,11 @@ body {
 /* Mobile */
 @media screen and (max-width:450px) {
   .logo {
-    width: 80%;
+    width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 4%;
     display: block;
   }
 
@@ -33,12 +33,16 @@ body {
     border: none;
     font-family: 'Quicksand';
     color: #2b2b2b;
-    font-size: 2.5rem;
-    margin: 5%;
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
     cursor: pointer;
     float: left;
     display: block;
     outline: none;
+    text-align: center;
   }
 }
 
@@ -70,6 +74,10 @@ body {
     display: block;
     outline: none;
   }
+
+  .menu-bar button:hover {
+    font-weight: bold;
+  }
 }
 
 hr {
@@ -84,8 +92,6 @@ p {
   font-family: 'Montserrat';
 }
 
-
-
 .menu-bar a {
   display: block;
   float: left;
@@ -93,10 +99,6 @@ p {
 
 .tabcontent {
   display: none;
-}
-
-.menu-bar button:hover {
-  font-weight: bold;
 }
 
 .menu-bar button:focus {
