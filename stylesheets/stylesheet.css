@@ -24,6 +24,15 @@ body {
     display: block;
   }
 
+  .logo2 {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22%;
+    display: block;
+  }
+
   .menu-bar {
     position:relative;
     text-align: center;
@@ -92,11 +101,22 @@ body {
 /* Monitor */
 @media screen and (min-width:451px) {
   .logo {
-    width: 29%;
+    width: 27%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.8%;
+    padding-bottom: 1%;
+    display: block;
+  }
+
+  .logo2 {
+    width: 27%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -7.25%;
+    padding-bottom: 1%;
     display: block;
   }
 
@@ -178,6 +198,70 @@ body {
       margin-right: 5%;
       padding-bottom: 3%;
     }
+}
+
+#logos {
+  position:relative;
+}
+
+#logos img.logo {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#logos img.logo2 {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes logoFadeInToOut {
+  0% {
+  opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+}
+
+@keyframes logoFadeOutToIn {
+  0% {
+  opacity:0;
+  }
+  45% {
+  opacity:0;
+  }
+  55% {
+  opacity:1;
+  }
+  100% {
+  opacity:1;
+  }
+}
+
+#logos img.logo {
+  animation-name: logoFadeInToOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+#logos img.logo2 {
+  animation-name: logoFadeOutToIn;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
 }
 
 .contact-info {
