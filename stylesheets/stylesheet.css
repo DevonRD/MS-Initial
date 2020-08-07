@@ -70,6 +70,14 @@ body {
     margin-right: 5%;
     padding-bottom: 5%;
   }
+
+  .hrule {
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: block;
+  }
 }
 
 /* Monitor */
@@ -107,9 +115,9 @@ body {
 
   p {
     font-size: 1.5rem;
-    margin-left: 18%;
-    margin-right: 18%;
-    padding-top: 6%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 2%;
     color: #222222;
     font-family: 'Montserrat';
   }
@@ -121,11 +129,19 @@ body {
   .proj-caro {
     width: 30%;
     margin-left: 15%;
-    padding-top: 6%;
+    padding-top: 3%;
+  }
+
+  .hrule {
+    height: 2px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    display: block;
   }
 
   .proj-desc {
-    margin-top: 8%;
+    margin-top: 4%;
     margin-left: 50%;
     width: 30%;
     position: absolute;
