@@ -8,7 +8,7 @@ html, body, h1, h2, h3, h4, h5, p, a {
 body {
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, 'Quicksand', 'Crimson Text', 'Montserrat', sans-serif;
+  font-family: Helvetica, Arial, 'Quicksand', 'Crimson Text', 'Montserrat', 'Tangerine', cursive, sans-serif;
   line-height: 1.5;
   color: #363636;
 }
@@ -63,6 +63,8 @@ body {
 
   .proj-desc h1 {
     padding-top: 5%;
+    font-size: 4rem;
+    font-family: 'Tangerine', cursive;
   }
 
   .proj-desc p {
@@ -127,8 +129,8 @@ body {
   }
 
   .proj-caro {
-    width: 30%;
-    margin-left: 15%;
+    width: 25%;
+    margin-left: 25%;
     padding-top: 3%;
   }
 
@@ -141,9 +143,9 @@ body {
   }
 
   .proj-desc {
-    margin-top: 4%;
-    margin-left: 50%;
-    width: 30%;
+    margin-top: 3%;
+    margin-left: 52%;
+    margin-right: 25%;
     position: absolute;
     text-align: center;
     background-color: rgb(204, 204, 204, 0.5)
@@ -151,6 +153,8 @@ body {
 
     .proj-desc h1 {
       padding-top: 5%;
+      font-size: 4rem;
+      font-family: 'Tangerine', cursive;
     }
 
     .proj-desc p {
@@ -158,6 +162,23 @@ body {
       margin-right: 5%;
       padding-bottom: 3%;
     }
+}
+
+.contact-name {
+  font-family: 'Mate SC', serif;
+  font-size: 2.5rem;
+  padding-top: 1%;
+  padding-bottom: 0;
+}
+
+.contact-info {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .menu-bar a {
@@ -172,4 +193,8 @@ body {
 .menu-bar button:focus {
   outline: none;
   font-weight: bold;
+}
+
+.contact-general {
+  text-align: center;
 }
