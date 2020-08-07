@@ -33,7 +33,7 @@ body {
   .menu-bar button {
     background: none;
     border: none;
-    font-family: 'Quicksand';
+    font-family: 'Mate SC', serif;
     color: #222222;
     font-size: 1.7rem;
     margin: auto;
@@ -80,31 +80,40 @@ body {
     margin-top: 5%;
     display: block;
   }
+
+  .contact-name {
+    font-family: 'Mate SC', serif;
+    font-size: 2.5rem;
+    padding-top: 1%;
+    padding-bottom: 0;
+  }
 }
 
 /* Monitor */
 @media screen and (min-width:451px) {
   .logo {
-    width: 35rem;
+    width: 29%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
+    margin-top: 0.8%;
     display: block;
   }
 
   .menu-bar {
-    position:relative;
-    margin-left: 26.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    display: block;
   }
 
   .menu-bar button {
     background: none;
     border: none;
-    font-family: 'Quicksand';
+    font-family: 'Mate SC', serif;
     color: #222222;
-    font-size: 2.5rem;
-    margin: 1rem 2.5rem;
+    font-size: 2.2vw;
+    width: 33%;
     cursor: pointer;
     float: left;
     display: block;
@@ -116,7 +125,7 @@ body {
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2vw;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 2%;
@@ -142,6 +151,13 @@ body {
     display: block;
   }
 
+  .contact-name {
+    font-family: 'Mate SC', serif;
+    font-size: 2.2vw;
+    padding-top: 1%;
+    padding-bottom: 0;
+  }
+
   .proj-desc {
     margin-top: 3%;
     margin-left: 52%;
@@ -153,7 +169,7 @@ body {
 
     .proj-desc h1 {
       padding-top: 5%;
-      font-size: 4rem;
+      font-size: 3.2vw;
       font-family: 'Tangerine', cursive;
     }
 
@@ -162,13 +178,6 @@ body {
       margin-right: 5%;
       padding-bottom: 3%;
     }
-}
-
-.contact-name {
-  font-family: 'Mate SC', serif;
-  font-size: 2.5rem;
-  padding-top: 1%;
-  padding-bottom: 0;
 }
 
 .contact-info {
