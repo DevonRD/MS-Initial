@@ -53,19 +53,25 @@ body {
 
   p {
     font-size: 1.2rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 5%;
     color: #222222;
     font-family: 'Montserrat';
   }
 
   .proj-caro {
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .proj-desc {
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
     background-color: rgb(204, 204, 204, 0.5)
   }
