@@ -51,15 +51,14 @@ body {
 
   .menu-bar-mobile {
     text-align: center;
-    margin-top: 14%;
+    margin-top: 13%;
     float: left;
   }
 
   .menu-bar-mobile img {
-    width: 70%;
-    margin-left: 15%;
-    margin-top: -25%;
+    width: 100%;
     height: auto;
+    margin-top: -30%;
   }
 
   .menu-bar-mobile button {
@@ -77,7 +76,7 @@ body {
   }
 
   .mobile-arrows {
-    width: 15%;
+    width: 10%;
   }
 
   p {
@@ -121,7 +120,7 @@ body {
     height: 2px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 32%;
+    margin-top: 30%;
     display: block;
     margin-bottom: 2%;
   }
