@@ -19,10 +19,32 @@
 </head>
 
 <body style="background-color: rgb(243, 243, 243); background-image: url('pics/wood4.png');">
+  
+  <div class="logo-slideshow">
+    <div class="carousel slide" data-ride="carousel">
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner thick-border">
+        <div class="carousel-item active">
+          <img src="pics/project-pics/ceilings/ceiling1.jpeg" width="100%" height=auto>
+        </div>
+        <div class="carousel-item">
+          <img src="pics/logo-pics/IMG_01541.jpg" width="100%" height=auto>
+        </div>
+        <div class="carousel-item">
+          <img src="pics/logo-pics/stairs 3.jpeg" width="100%" height=auto>
+        </div>
+        <div class="carousel-item">
+          <img src="pics/logo-pics/kitchen 2.jpg" width="100%" height=auto>
+        </div>
+      </div>
 
-  <div id="logos">
-    <img class="logo" src="pics/midwest-stairs.png"></img>
-    <img class="logo2" src="pics/wolverine-fc.png"></img>
+    </div>
+
+    <div id="logos">
+      <img class="logo" src="pics/midwest-stairs.png"></img>
+      <img class="logo2" src="pics/wolverine-fc.png"></img>
+    </div>
   </div>
 
   <div class="menu-bar">
@@ -30,8 +52,30 @@
     <button onclick="openTab('gallery', this)">Gallery</button>
     <button onclick="openTab('contact', this)">Contact Us</button>
   </div>
+
+  <div class="menu-bar-mobile">
+    <button class="mobile-arrows" onclick="slideTab(-1, this)" id="defaultOpen">
+      <img src="pics/leftarrow.png"></img>
+    </button>
+    <button style="width: 50%;"><p id="mobile-display">About Us</p></button>
+    <button class="mobile-arrows" onclick="slideTab(1, this)">
+      <img src="pics/rightarrow.png"></img>
+    </button>
+  </div>
+
   <div class="hrule" style="background-color: #494949;"></div>
   <div id="about" class="tabcontent">
+    <p>
+      Based in Romeo, Michigan, we take pride in our top-quality work ... For () years, we have fulfilled all 
+      project demands put our way, including ...
+    </p>
+    <p class="subtext">
+      With our carpentry experience and expertise, your mind is the catalog. We (do) detailed and personalized
+      work to match the specifics provided by our clients. Check out our previous work for ideas or inspiration!
+    </p>
+    <p class="subtext">
+      potential more/media
+    </p>
     <p>
       Based in Romeo, Michigan, we take pride in our top-quality work ... For () years, we have fulfilled all 
       project demands put our way, including ...

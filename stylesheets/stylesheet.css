@@ -5,6 +5,10 @@ html, body, h1, h2, h3, h4, h5, p, a {
     font-family: 'Montserrat';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -20,7 +24,7 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: -36%;
     display: block;
   }
 
@@ -33,22 +37,46 @@ body {
     display: block;
   }
 
-  .menu-bar {
-    position:relative;
-    text-align: center;
-    padding-top: 2%;
+  .logo-slideshow {
+    width: 100%;
   }
 
-  .menu-bar button {
+  .thick-border {
+    border: thick solid #313131;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .menu-bar-mobile {
+    text-align: center;
+    margin-top: 14%;
+    float: left;
+  }
+
+  .menu-bar-mobile img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -25%;
+    height: auto;
+  }
+
+  .menu-bar-mobile button {
     background: none;
     border: none;
     font-family: 'Mate SC', serif;
     color: #222222;
-    font-size: 1.7rem;
-    margin: auto;
     cursor: pointer;
-    display: block;
     outline: none;
+  }
+
+  .menu-bar-mobile p {
+    font-size: 2rem;
+  }
+
+  .mobile-arrows {
+    width: 15%;
   }
 
   p {
@@ -92,8 +120,9 @@ body {
     height: 2px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 32%;
     display: block;
+    margin-bottom: 2%;
   }
 
   .contact-name {
@@ -107,22 +136,30 @@ body {
 /* Monitor */
 @media screen and (min-width:451px) {
   .logo {
-    width: 27%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.8%;
-    padding-bottom: 1%;
+    margin-top: -33%;
     display: block;
   }
 
+  .logo-slideshow {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 2%;
+  }
+
+  .thick-border {
+    border: thick solid #313131;
+  }
+
   .logo2 {
-    width: 27%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -7.25%;
-    padding-bottom: 1%;
+    margin-top: -14%;
     display: block;
   }
 
@@ -131,6 +168,7 @@ body {
     margin-right: 25%;
     height: auto;
     display: block;
+    margin-top: 10%;
   }
 
   .menu-bar button {
@@ -144,6 +182,10 @@ body {
     float: left;
     display: block;
     outline: none;
+  }
+
+  .menu-bar-mobile {
+    display: none;
   }
 
   .menu-bar button:hover {
@@ -173,7 +215,7 @@ body {
     height: 2px;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 5%;
+    margin-top: 15%;
     display: block;
   }
 
@@ -292,6 +334,10 @@ body {
 .menu-bar button:focus {
   outline: none;
   font-weight: bold;
+}
+
+.menu-bar-mobile button:focus {
+  outline: none;
 }
 
 .contact-general {
