@@ -72,7 +72,8 @@ body {
   }
 
   .menu-bar-mobile p {
-    font-size: 2rem;
+    font-family: 'Mate SC', serif;
+    font-size: 1.8rem;
   }
 
   .mobile-arrows {
