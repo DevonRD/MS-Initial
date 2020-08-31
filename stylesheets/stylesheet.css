@@ -25,6 +25,11 @@ body {
     margin-right: 10%;
   }
 
+  .tabcontent a {
+    text-decoration: underline;
+    color: #4b4b4b;
+  }
+
   .logo {
     width: 90%;
     height: auto;
@@ -168,6 +173,11 @@ body {
     margin-right: 25%;
   }
 
+  .tabcontent a {
+    text-decoration: underline;
+    color: #4b4b4b;
+  }
+
   .logo {
     width: 60%;
     height: auto;
@@ -233,7 +243,6 @@ body {
     font-family: 'Montserrat';
   }
 
-
   .hrule {
     height: 2px;
     margin-left: 25%;
@@ -288,35 +297,31 @@ body {
     text-align: center;
     position: relative;
   }
-
-    .proj-desc h1 {
-      padding-top: 5%;
-      font-size: 3.2vw;
-      font-family: 'Tangerine', cursive;
-    }
-
-    .proj-desc p {
-      margin-left: 5%;
-      margin-right: 5%;
-    }
+  .proj-desc h1 {
+    padding-top: 5%;
+    font-size: 3.2vw;
+    font-family: 'Tangerine', cursive;
+  }
+  .proj-desc p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
   .proj-desc-full {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
   }
-
-    .proj-desc-full h1 {
-      padding-top: 3%;
-      font-size: 3.2vw;
-      font-family: 'Tangerine', cursive;
-    }
-
-    .proj-desc-full p {
-      margin-left: 5%;
-      margin-right: 5%;
-      padding-bottom: 3%;
-    }
+  .proj-desc-full h1 {
+    padding-top: 3%;
+    font-size: 3.2vw;
+    font-family: 'Tangerine', cursive;
+  }
+  .proj-desc-full p {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 3%;
+  }
 }
 
 #logos {
