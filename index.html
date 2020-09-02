@@ -20,10 +20,9 @@
 
 <body style="background-color: rgb(243, 243, 243); background-image: url('pics/wood4.png');">
   
+  <!------ Top logo, slideshow, menu ------>
   <div class="logo-slideshow">
     <div class="carousel slide" data-ride="carousel">
-      
-      <!-- The slideshow -->
       <div class="carousel-inner thick-border">
         <div class="carousel-item active">
           <img src="pics/project-pics/ceilings/ceiling1.jpeg" width="100%" height=auto>
@@ -38,21 +37,17 @@
           <img src="pics/logo-pics/kitchen 2.jpg" width="100%" height=auto>
         </div>
       </div>
-
     </div>
-
     <div id="logos">
       <img class="logo" src="pics/midwest-stairs.png"></img>
       <img class="logo2" src="pics/wolverine-fc.png"></img>
     </div>
   </div>
-
   <div class="menu-bar">
     <button onclick="openTab('about', this)" id="defaultOpen">About Us</button>
     <button onclick="openTab('gallery', this)">Gallery</button>
     <button onclick="openTab('contact', this)">Contact Us</button>
   </div>
-
   <div class="menu-bar-mobile">
     <button class="mobile-arrows" onclick="slideTab(-1, this)" id="defaultOpen">
       <img src="pics/leftarrow.png"></img>
@@ -61,7 +56,7 @@
     <button class="mobile-arrows" onclick="slideTab(1, this)">
       <img src="pics/rightarrow.png"></img>
     </button>
-  </div>
+  </div> <!------ End top info ------>
 
   <div class="hrule" style="background-color: #494949;"></div>
 
@@ -73,24 +68,18 @@
       through project completion. From simple remodeling projects to full new-build trim packages,
       our expertise ensures your project is completed in a timely manner to our exacting standards.
     </p>
-
     <p>
       Quality workmanship, integrity, honesty, and attention to detail are the cornerstones of our
       business model. We offer services for builders, general contractors, and homeowners. Contact
       us for a design consultation or project estimate to learn more about how we can help
       make your dream home a reality!
     </p>
-
     <!-- <div class="hrule-sub" style="background-color: #8a8a8a;"></div> -->
-
     <p></p>
+  </div> <!------ End div ABOUT ------>
 
-  </div>
 
   <div id="gallery" class="tabcontent">
-
-    
-    
     <!------ Conceptual Design Showcase Section ------>
     <div class="project-section">
       <div class="proj-desc">
@@ -230,8 +219,7 @@
         </div>
       </div>
     </div>
-
-  </div> <!-- End div GALLERY -->
+  </div> <!------ End div GALLERY ------>
 
 
   <div id="contact" class="tabcontent">
@@ -258,10 +246,11 @@
       </a>
     </p>
     <p style="text-align: center;">
-      Office: <a href="tel:5867522455">586-752-2455</a> <br><br> Fax: <a href="tel:5867520937">586-752-0937</a>
+      Office: <a href="tel:5867522455">586-752-2455</a> <br><br> Fax: <a style="color: #4b4b4b">586-752-0937</a>
     </p>
     <br><br>
   </div> <!------ End div CONTACT ------>
+
 
   <script>
     document.getElementById("defaultOpen").click();
