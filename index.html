@@ -18,12 +18,10 @@
   <script src="script.js"></script>
 </head>
 
-<body style="background-color: rgb(243, 243, 243); background-image: url('pics/wood4.png');">
-  
-  <!------ Top logo, slideshow, menu ------>
-  <div class="logo-slideshow">
+<body style="background-color: rgb(8, 140, 73);">
+  <div class="main-body">
     <div class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner thick-border">
+      <div class="carousel-inner logo-border">
         <div class="carousel-item active">
           <img src="pics/project-pics/ceilings/ceiling1.jpeg" width="100%" height=auto>
         </div>
@@ -42,44 +40,25 @@
       <img class="logo" src="pics/midwest-stairs.png"></img>
       <img class="logo2" src="pics/wolverine-fc.png"></img>
     </div>
-  </div>
-  <div class="menu-bar">
-    <button onclick="openTab('about', this)" id="defaultOpen">About Us</button>
-    <button onclick="openTab('gallery', this)">Gallery</button>
-    <button onclick="openTab('contact', this)">Contact Us</button>
-  </div>
-  <div class="menu-bar-mobile">
-    <button class="mobile-arrows" onclick="slideTab(-1, this)" id="defaultOpen">
-      <img src="pics/leftarrow.png"></img>
-    </button>
-    <button style="width: 60%;"><p id="mobile-display">About Us</p></button>
-    <button class="mobile-arrows" onclick="slideTab(1, this)">
-      <img src="pics/rightarrow.png"></img>
-    </button>
-  </div> <!------ End top info ------>
 
-  <div class="hrule" style="background-color: #494949;"></div>
+    <div class="content">
+      <p>
+        Founded in 1998, Midwest Stairs and Wolverine Finish Carpentry are family owned and
+        operated, specializing in custom carpentry and stair rail projects. With 75+ years of
+        professional experience, our collaborative services cover the process from conceptual design
+        through project completion. From simple remodeling projects to full new-build trim packages,
+        our expertise ensures your project is completed in a timely manner to our exacting standards.
+      </p>
+      <p>
+        Quality workmanship, integrity, honesty, and attention to detail are the cornerstones of our
+        business model. We offer services for builders, general contractors, and homeowners. Contact
+        us for a design consultation or project estimate to learn more about how we can help
+        make your dream home a reality!
+      </p>
+      <!-- <div class="hrule-sub" style="background-color: #8a8a8a;"></div> -->
+      <p></p>
+    </div> <!------ End div ABOUT ------>
 
-  <div id="about" class="tabcontent">
-    <p>
-      Founded in 1998, Midwest Stairs and Wolverine Finish Carpentry are family owned and
-      operated, specializing in custom carpentry and stair rail projects. With 75+ years of
-      professional experience, our collaborative services cover the process from conceptual design
-      through project completion. From simple remodeling projects to full new-build trim packages,
-      our expertise ensures your project is completed in a timely manner to our exacting standards.
-    </p>
-    <p>
-      Quality workmanship, integrity, honesty, and attention to detail are the cornerstones of our
-      business model. We offer services for builders, general contractors, and homeowners. Contact
-      us for a design consultation or project estimate to learn more about how we can help
-      make your dream home a reality!
-    </p>
-    <!-- <div class="hrule-sub" style="background-color: #8a8a8a;"></div> -->
-    <p></p>
-  </div> <!------ End div ABOUT ------>
-
-
-  <div id="gallery" class="tabcontent">
     <!------ Conceptual Design Showcase Section ------>
     <div class="project-section">
       <div class="proj-desc">
@@ -95,7 +74,7 @@
           Shown here is a wine showcase that we installed for a client.
         </p>
       </div>
-      <div class="proj-caro">
+      <div class="half-caro">
         <div id="wine-room" class="carousel slide" data-ride="carousel">
           <ul class="carousel-indicators">
             <li data-target="#wine-room" data-slide-to="0" class="active"></li>
@@ -135,33 +114,27 @@
           your space and preferences.
         </p>
       </div>
-      <div class="proj-caro-full">
-        <div id="ceilings" class="carousel slide" data-ride="carousel">
-          <ul class="carousel-indicators">
-            <li data-target="#ceilings" data-slide-to="0" class="active"></li>
-            <li data-target="#ceilings" data-slide-to="1"></li>
-            <li data-target="#ceilings" data-slide-to="2"></li>
-          </ul>
-          
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="pics/project-pics/ceilings/ceiling1.jpeg" width="100%" height=auto>
-            </div>
-            <div class="carousel-item">
-              <img src="pics/project-pics/ceilings/ceiling2.jpeg" width="100%" height=auto>
-            </div>
-            <div class="carousel-item">
-              <img src="pics/project-pics/ceilings/ceiling1.jpeg" width="100%" height=auto>
-            </div>
+      <div id="ceilings" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#ceilings" data-slide-to="0" class="active"></li>
+          <li data-target="#ceilings" data-slide-to="1"></li>
+        </ul>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pics/project-pics/ceilings/ceiling1.jpeg" width="100%" height=auto>
           </div>
-          
-          <a class="carousel-control-prev" href="#ceilings" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#ceilings" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
+          <div class="carousel-item">
+            <img src="pics/project-pics/ceilings/ceiling2.jpeg" width="100%" height=auto>
+          </div>
         </div>
+        
+        <a class="carousel-control-prev" href="#ceilings" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#ceilings" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
     </div>
 
@@ -174,7 +147,7 @@
           including curved rails, open tread designs, and custom newel posts.
         </p>
       </div>
-      <div class="proj-caro">
+      <div class="half-caro">
         <div id="railing-1" class="carousel slide" data-ride="carousel">
           <ul class="carousel-indicators">
             <li data-target="#railing-1" data-slide-to="0" class="active"></li>
@@ -219,20 +192,18 @@
         </div>
       </div>
     </div>
-  </div> <!------ End div GALLERY ------>
 
-
-  <div id="contact" class="tabcontent">
+    <!------ Contact Information ------>
     <div class="contact-general">
-      <p class="contact-info">For carpentry projects, contact</p>
+      <p>For carpentry projects, contact</p>
       <p class="contact-name">Al Angeli</p>
-      <p class="contact-info">at <a href="tel:5865311300">586-531-1300</a></p>
+      <p>at <a href="tel:5865311300">586-531-1300</a></p>
     </div>
 
     <div class="contact-general">
-      <p class="contact-info">For stair rail projects, contact</p>
+      <p>For stair rail projects, contact</p>
       <p class="contact-name">Sergio Angeli</p>
-      <p class="contact-info">at <a href="tel:8105234422">810-523-4422</a></p>
+      <p>at <a href="tel:8105234422">810-523-4422</a></p>
     </div>
 
     <p style="text-align: center;">
@@ -246,15 +217,10 @@
       </a>
     </p>
     <p style="text-align: center;">
-      Office: <a href="tel:5867522455">586-752-2455</a> <br><br> Fax: <a style="color: #4b4b4b">586-752-0937</a>
+      Office: <a href="tel:5867522455">586-752-2455</a> <br> Fax: <a style="color: #4b4b4b">586-752-0937</a>
     </p>
-    <br><br>
-  </div> <!------ End div CONTACT ------>
 
-
-  <script>
-    document.getElementById("defaultOpen").click();
-  </script>
+  </div>
     
 </body>
 </html>
